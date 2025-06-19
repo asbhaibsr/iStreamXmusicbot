@@ -13,8 +13,8 @@ COPY . .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# ✅ ADD THIS LINE BELOW ⬇️ (important)
-RUN pip install git+https://github.com/pytgcalls/pytgcalls@3.0.0.dev24
+# ✅ Ye WALI LINE use karni hai sirf
+RUN pip install git+https://github.com/pytgcalls/pytgcalls
 
 # Expose port for uptime ping
 EXPOSE 8080
