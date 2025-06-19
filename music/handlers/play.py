@@ -1,6 +1,4 @@
-from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import AudioPiped
-from pytgcalls.types.stream import StreamAudioEnded
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream.quality import HighQualityAudio
 
