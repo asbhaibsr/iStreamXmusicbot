@@ -3,8 +3,8 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from config import API_ID, API_HASH, SESSION_STRING, OWNER_ID
 from pytgcalls import GroupCallFactory
 from ping_server import keep_alive
-from utils.ai_reply import generate_ai_reply
-from utils.music_stream import play_music, stop_music
+from ai import generate_ai_reply  # Corrected
+from music.handlers.play import play_music, stop_music  # Corrected
 import asyncio
 
 # Keep alive (Koyeb uptime)
